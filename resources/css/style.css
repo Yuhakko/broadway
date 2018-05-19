@@ -1,5 +1,6 @@
 body{
   font-family: Helvetica;
+  text-align: center;
 }
 
 #title{
@@ -9,15 +10,17 @@ body{
   color: white;
 }
 
+
 .heading{
   font-family: Helvetica;
   font-size: 18px;
   color: white;
+  background: URL("../images/the-flatiron-building.png")
 }
 
 h2{
   font-family: Helvetica;
-  font-size: 32px;
+  font-size: 23px;
   font-weight: bold;
 }
 
@@ -30,7 +33,12 @@ p{
   font-family: Helvetica;
   font-size: 23px;
   font-weight: bold;
-  color: white
+  color: white;
+  background: URL("../images/the-flatiron-building.png");
+}
+
+a{
+  color: white;
 }
 
 footer{
@@ -38,4 +46,5 @@ footer{
   font-size: 11px;
   color: white;
   background-color: dimgray;
+  text-align: left;
 }
